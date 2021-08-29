@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="app.css">
+    <title>Products</title>
+</head>
+<body>
+    <header>
+        <a href="#" class="logo">Products</a>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Store</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </header>
+    
+<section class="banner">
+    <div class="imgBx">
+        <img src="./images/img1.jpeg" class="active">
+        <img src="./images/img2.jpeg" alt="">
+        <img src="./images/img3.jpeg" alt="">
+        <img src="./images/img4.jpeg" alt="">
+    </div>
+
+    <div class="contentBx">
+        <div class="active">
+            <h2>Slide Text One</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+            <a href="#">Details</a>
+        </div>
+        <div>
+            <h2>Slide Text Two</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est, libero voluptatum! A aliquam commodi debitis, qui sint velit vitae.</p>
+            <a href="#">Details</a>
+        </div>
+        <div>
+            <h2>Slide Text Three</h2>
+            <p>Lorem ipsum dolor sit amet</p>
+            <a href="#">Details</a>
+        </div>
+        <div>
+            <h2>Slide Text Four</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Corporis dignissimos eius eum, ipsa quidem sed sint! Doloremque, modi nesciunt.</p>
+            <a href="#">Details</a>
+        </div>
+    </div>
+
+    <ul class="controls">
+        <li onclick="prevSlide();prevSlideText();"></li>
+        <li onclick="nextSlide();nextSlideText();"></li>
+    </ul>
+</section>
+
+    <script src="./app.js"></script>
+
+</body>
+</html>
